@@ -1,23 +1,68 @@
 html{
-  background-color:#c5c3bb;
+  background-color:#dbd6cf;
+}
+
+body{
+  margin: 0;
+}
+
+header {
+  background-color:#79756f;
+}
+nav {
+  text-align: center;
+}
+
+nav ol{
+  display: inline-block;
+  list-style: none;
+  margin: 0.5em;
+  padding:0.5em;
+}
+
+nav li{
+  display: inline-block;
+  margin: .5em;
+  padding: .25em;
+}
+
+nav a{
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  background-color: #703838;
+  color: #000;
+  text-decoration: none;
+  border: 1px #703838;
+  border-radius: 10px;
+  width: 6em;
 }
 
 h1 {
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
-  color:#4a4944;
+  color:#fff;
+  padding: 1em 2em .5em 3em;
+  margin: 0;
+  text-align: center;
 }
 
 h2 {
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
-  color:#6c6a63;
+  color:#79756f;
 }
 
 h3 {
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
-  color:#929087;
+  color:#79756f;
+}
+
+h4 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  color:#fff;
+  padding: 1em 1em 0em 1em;
 }
 
 
@@ -65,4 +110,21 @@ dl dt {
 
 .round{
   color:#2d8e76;
+}
+
+figure {
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 1em;
+}
+
+img{
+  width: 100%;
+}
+
+footer{
+  background-color:#79756f;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  color:#fff;
 }
