@@ -50,12 +50,14 @@ h2 {
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
   color:#79756f;
+  padding: 0em 0em 0em 1em;
 }
 
 h3 {
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
   color:#79756f;
+  padding: 0em 0em 0em 1em;
 }
 
 h4 {
@@ -68,6 +70,7 @@ h4 {
 
 p {
   font-family: 'Open Sans', sans-serif;
+  padding: 0em 0em 0em 2em;
 }
 
 blockquote {
@@ -83,6 +86,7 @@ cite {
 ol,ul,dl {
   font-family: 'Open Sans', sans-serif;
   list-style-type: none;
+  padding: 0em 0em 0em 2em;
 }
 
 figcaption {
@@ -127,4 +131,5 @@ footer{
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
   color:#fff;
+  padding: 0em 0em 0em 1em;
 }
